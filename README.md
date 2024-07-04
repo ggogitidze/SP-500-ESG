@@ -13,17 +13,8 @@ This project aims to analyze the relationship between ESG (Environmental, Social
 - [Analysis and Findings](#analysis-and-findings)
   - [Correlation Analysis](#correlation-analysis)
   - [Hypothesis Testing](#hypothesis-testing)
-    - [Question 1](#question-1)
-    - [Question 2](#question-2)
-    - [Question 3](#question-3)
-    - [Question 4](#question-4)
-    - [Question 5](#question-5)
 - [Visualizations](#visualizations)
 - [Key Findings](#key-findings)
-- [Recommendations](#recommendations)
-- [Files](#files)
-- [How to Run](#how-to-run)
-- [License](#license)
 
 ## Data Sources
 
@@ -38,7 +29,7 @@ This project aims to analyze the relationship between ESG (Environmental, Social
 
 ## Data Preparation
 
-The data cleaning process involved handling missing values, renaming columns for consistency, and merging the datasets on the common identifier (company symbol).
+The data cleaning process involved handling missing values, renaming columns for consistency, and merging the datasets on the common identifier using PostgreSQL, Excel, python.
 
 ## Analysis and Findings
 
@@ -48,21 +39,19 @@ The data cleaning process involved handling missing values, renaming columns for
 
 ### Hypothesis Testing
 
-#### Question 1: Is there a significant correlation between Market Cap and Total ESG Risk Score?
+###Visualizations
+The following visualizations were created using Power BI to support the findings:
 
-**Null Hypothesis (H0)**: There is no significant correlation between Market Cap and Total ESG Risk Score.
+**Scatter Plot: Correlation between Market Cap and Total ESG Risk Score.
+**Scatter Plot: Impact of Environment Risk Score on Earnings/Share.
+**Bar Chart: Mean Governance Risk Scores across Sectors.
+**Table: Average Earnings/Share for Low ESG Scores by Sector.
+**Table: Average Earnings/Share for High ESG Scores by Sector.
+**Correlation Matrix: Financial Metrics and ESG Scores.
 
-**Test Used**: Pearson Correlation
-
-**Results**:
-- Correlation coefficient: 0.094
-- p-value: 0.067
-
-**Conclusion**: Since the p-value is greater than 0.05, we fail to reject the null hypothesis. There is no significant correlation between Market Cap and Total ESG Risk Score.
-
-```python
-import scipy.stats as stats
-
-# Calculate the Pearson correlation coefficient and p-value
-corr, p_value_corr = stats.pearsonr(updated_df['Market Cap'], updated_df['total_esg_risk_score'])
-print(f'Correlation between Market Cap and Total ESG Risk Score: {corr}, p-value: {p_value_corr}')
+###Key Findings
+##There is no significant correlation between Market Cap and Total ESG Risk Score.
+##The Environment Risk Score has a significant correlation with Earnings/Share.
+##The mean Governance Risk Scores are different across different sectors.
+##There is a significant difference in Dividend Yield between companies with high and low ESG Risk Percentiles.
+##The Social Risk Score does not significantly predict the Price/Earnings ratio.

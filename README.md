@@ -39,19 +39,19 @@ The data cleaning process involved handling missing values, renaming columns for
 
 ### Hypothesis Testing
 
-###Visualizations
+### Visualizations
 The following visualizations were created using Power BI to support the findings:
 
-**Scatter Plot: Correlation between Market Cap and Total ESG Risk Score.
-**Scatter Plot: Impact of Environment Risk Score on Earnings/Share.
-**Bar Chart: Mean Governance Risk Scores across Sectors.
-**Table: Average Earnings/Share for Low ESG Scores by Sector.
-**Table: Average Earnings/Share for High ESG Scores by Sector.
-**Correlation Matrix: Financial Metrics and ESG Scores.
+- Scatter Plot: Correlation between Market Cap and Total ESG Risk Score.
+- Scatter Plot: Impact of Environment Risk Score on Earnings/Share.
+- Bar Chart: Mean Governance Risk Scores across Sectors.
+- Table: Average Earnings/Share for Low ESG Scores by Sector.
+- Table: Average Earnings/Share for High ESG Scores by Sector.
+- Correlation Matrix: Financial Metrics and ESG Scores.
 
-###Key Findings
-##There is no significant correlation between Market Cap and Total ESG Risk Score.
-##The Environment Risk Score has a significant correlation with Earnings/Share.
-##The mean Governance Risk Scores are different across different sectors.
-##There is a significant difference in Dividend Yield between companies with high and low ESG Risk Percentiles.
-##The Social Risk Score does not significantly predict the Price/Earnings ratio.
+### Key Findings
+- There is no significant correlation between Market Cap and Total ESG Risk Score.
+- The Environment Risk Score has a significant correlation with Earnings/Share.
+- The mean Governance Risk Scores are different across different sectors.
+- There is a significant difference in Dividend Yield between companies with high and low ESG Risk Percentiles.
+- The Social Risk Score does not significantly predict the Price/Earnings ratio.

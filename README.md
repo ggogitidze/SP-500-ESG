@@ -59,4 +59,4 @@ The following visualizations were created using Power BI to support the findings
 
 ### Full Report
 
-[Open Project Documentation](S&P500-ESGDataAnalyticsReport.docx)
+[Open Project Documentation](SP500-ESGDataAnalyticsReport.docx)

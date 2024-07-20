@@ -15,6 +15,7 @@ This project aims to analyze the relationship between ESG (Environmental, Social
   - [Hypothesis Testing](#hypothesis-testing)
 - [Visualizations](#visualizations)
 - [Key Findings](#key-findings)
+- [Full report](#full-report)
 
 ## Data Sources
 
@@ -55,3 +56,7 @@ The following visualizations were created using Power BI to support the findings
 - The mean Governance Risk Scores are different across different sectors.
 - There is a significant difference in Dividend Yield between companies with high and low ESG Risk Percentiles.
 - The Social Risk Score does not significantly predict the Price/Earnings ratio.
+
+### Full Report
+
+[Open Project Documentation](S&P500-ESGDataAnalyticsReport.docx)

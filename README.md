@@ -6,8 +6,9 @@ This report provides an in-depth analysis of the relationship between ESG (Envir
 
 ## Data Overview
 
-- **S&P 500 Constituents Financials:** Financial metrics of S&P 500 companies.
-- **S&P 500 ESG Risk Ratings:** ESG risk ratings for S&P 500 companies.
+- [**S&P 500 Constituents Financials**](https://www.kaggle.com/datasets/zinovadr/sp-500-companies-with-financial-information?select=constituents-financials_csv.csv): Financial metrics of S&P 500 companies.
+- [**S&P 500 ESG Risk Ratings**](https://www.kaggle.com/datasets/pritish509/s-and-p-500-esg-risk-ratings): ESG risk ratings for S&P 500 companies.
+
 
 ## Objectives
 
